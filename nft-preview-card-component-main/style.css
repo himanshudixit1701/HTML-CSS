@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:   hsl(217, 54%, 11%);
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 100vh;
+    transform: scale(.5);
+    font-family: 'Outfit', sans-serif;
+    
+}
+.container{
+    width: 40vw;
+    background-color: hsl(216, 50%, 16%);
+    padding: 2.5rem ;
+    border-radius: 1.5rem;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.86)
+
+}
+.container>img{
+    width: 100%;
+    border-radius: 1rem;
+  
+}
+.artist img{
+    height:70px ;
+    width: 70px;
+}
+
+h1{
+    font-size: 2.5em;
+    color: white;
+    margin: 1rem 0.5rem ;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    margin: 1rem 0.5rem;
+    font-size: 1.5em;
+}
+hr{
+    background-color:hsl(215, 80%, 35%);
+    opacity: 0.3;
+}
+.eth{
+    display: flex;
+    justify-content: space-between;
+}
+.ip{
+    display: flex;
+
+}
+.ip img{
+    width:25%;
+}
+.eth #pa{
+    color: hsl(178, 100%, 50%);
+}
+.eth span{
+    display: flex;
+    flex-basis: 40%;
+}
+
+.eth span img{
+   display: block;
+    width: 55%;
+    transform:scale(0.5);
+}
+.eth span p{
+      display: block;
+}
