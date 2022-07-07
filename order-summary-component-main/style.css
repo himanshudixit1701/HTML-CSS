@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+     min-height: 100vh; 
+}
+
+.container{
+    width: 40vw;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 10px rgb(165, 164, 164);
+
+}
+.image img{
+    width: 100%;
+}
+.contentcontainer{
+    background-color: white;
+    padding: 3rem;
+    text-align: center;
+
+}
+.contentcontainer p{
+    color: hsl(224, 23%, 55%) ;
+    padding: 1rem;
+}
+.contentcontainer .pricing{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.5rem;
+}
+.contentcontainer .pricing div{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.blueButton{
+    width: 100%;
+    margin: 2rem 0;
+    padding: .75rem;
+    border: 0;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 18px gray;
+}
+.cancelButton{
+    background-color: transparent;
+    border: 0;
+}
+body>img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
