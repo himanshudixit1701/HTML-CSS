@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    height: 30em;
+    margin: 0 25%;
+    display: flex;
+    
+}
+.sedans{
+    padding: 3em;
+    height: 30em;
+    width: 20em;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-color: hsl(31, 77%, 52%);
+}
+.sedans h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+.sedans p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5em;
+    font-size: 15px;
+    width: 13em;
+    font-family: 'Inter', sans-serif;
+}
+.sedans #b1 {
+    margin-top: 7em;
+    padding: 1em 2.5em;
+    border-radius: 1.5rem;
+    border: hidden;
+    color:  hsl(31, 77%, 52%);
+}
+
+.suvs{
+    padding: 3em;
+    height: 30em;
+    width: 20em;
+    background-color: hsl(184, 100%, 22%);
+
+}
+.suvs h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+.suvs p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5em;
+    font-size: 15px;
+    width: 13.5em;
+    font-family: 'Inter', sans-serif;
+}
+.suvs #b2 {
+    margin-top: 7em;
+    padding: 1em 2em;
+    border-radius: 2.5rem;
+    border: hidden;
+    color: hsl(184, 100%, 22%);
+
+}
+
+.luxury{
+    padding: 3em;
+    height: 30em;
+    width: 20em;
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+.luxury p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5em;
+    font-size: 15px;
+    width: 14em;
+    font-family: 'Inter', sans-serif;
+}
+.luxury #b3 {
+    margin-top: 7em;
+    padding: 1em 2.5em;
+    border-radius: 1.5rem;
+    border: hidden;
+    color: hsl(179, 100%, 13%);
+}
